@@ -1,38 +1,15 @@
-# vue-project
+# vue-capacitor-test-project
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a test project for latest Node + Vue 3 + Capacitor 7.
 
-## Recommended IDE Setup
+1. Force app display vertically.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Do this at native side, Android side finished and tested well.
 
-## Recommended Browser Setup
+or use capacitor official plugin: @capacitor/screen-orientation (official since ver 5+)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+2. Official capacitor plugins: Camera, Clipboard, Device, Filesystem, Geolocation,
 
-## Customize configuration
+all work well at Android.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
+Push notification plugin needs to use Google Firebase, commented out in old project
